@@ -1,47 +1,50 @@
 ﻿using UnityEngine;
-using UnityEngine.InputSystem; // Necessário para o novo Input System
+using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Rigidbody2D))] // Garante que o objeto tem física
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Dependências")]
-    [Tooltip("Arrasta aqui o arquivo criado no Passo 2")]
     [SerializeField] private PlayerStatsSO stats;
+
+    // 1. Adicionamos a referência ao Dash (opcional, pois podemos usar GetComponent)
+    private PlayerDash playerDash;
 
     private Rigidbody2D rb;
     private Vector2 moveInput;
 
-    // Inicialização
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
 
-        // Configuração de segurança para física 2D em naves
-        rb.gravityScale = 0; // Nave não cai
-        rb.freezeRotation = true; // Nave não roda ao bater
+        // 2. Tentamos encontrar o componente Dash no mesmo objeto automaticamente
+        playerDash = GetComponent<PlayerDash>();
+
+        rb.gravityScale = 0;
+        rb.freezeRotation = true;
     }
 
-    // Chamado quando o jogador aperta botões (Input System)
-    // Precisas configurar um Input Action Asset na Unity e linkar o evento "Move" aqui
     public void OnMove(InputValue value)
     {
         moveInput = value.Get<Vector2>();
     }
 
-    // FixedUpdate é usado para física (movimentação suave)
     private void FixedUpdate()
     {
+        // 3. A GUARDA DE SEGURANÇA:
+        // Se o componente de Dash existir E estivermos no meio de um dash...
+        // ...NÃO fazemos nada e deixamos o script de Dash controlar a física.
+        if (playerDash != null && playerDash.IsDashing())
+        {
+            return;
+        }
+
         MovePlayer();
     }
 
     private void MovePlayer()
     {
-        // Cálculo simples: Direção * Velocidade
-        // O Time.fixedDeltaTime garante que a velocidade é igual em qualquer PC
         Vector2 targetVelocity = moveInput * stats.moveSpeed;
-
-        // Aplicamos a velocidade ao corpo físico
         rb.linearVelocity = targetVelocity;
-        // OBS: Na Unity 6, 'velocity' foi renomeado para 'linearVelocity'
     }
 }

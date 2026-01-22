@@ -767,6 +767,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1102384551}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &537972942
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 537972943}
+  m_Layer: 0
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &537972943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537972942}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1274182808}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1274,6 +1305,7 @@ GameObject:
   - component: {fileID: 1274182807}
   - component: {fileID: 1274182810}
   - component: {fileID: 1274182809}
+  - component: {fileID: 1274182811}
   m_Layer: 0
   m_Name: Dummy
   m_TagString: Enemy
@@ -1351,6 +1383,7 @@ Transform:
   m_Children:
   - {fileID: 2098876704}
   - {fileID: 1317321643}
+  - {fileID: 537972943}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1274182809
@@ -1420,6 +1453,22 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &1274182811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274182806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb95ec8f79b98ed4eb951a6b3672d3bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponData: {fileID: 11400000, guid: 57590328aeb42aa4992e4287f75a41ec, type: 2}
+  firePoint: {fileID: 537972943}
+  attackRange: 12
+  lookAtPlayer: 1
 --- !u!1 &1317321642
 GameObject:
   m_ObjectHideFlags: 0
@@ -1785,7 +1834,7 @@ GameObject:
   - component: {fileID: 1434022942}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1999,7 +2048,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -2435,6 +2484,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShootFeedBack
       objectReference: {fileID: 0}
+    - target: {fileID: 228169076635676347, guid: 6918e1e14b9134c4b85e4f2f698f8530, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3592691253508559327, guid: 6918e1e14b9134c4b85e4f2f698f8530, type: 3}
       propertyPath: managedReferences[6861497326080360526].BoundRenderer
       value: 
@@ -2551,6 +2604,10 @@ PrefabInstance:
     - target: {fileID: 8818714482339129072, guid: 52c92aea1934f2e4d96c49327694f3d8, type: 3}
       propertyPath: m_Name
       value: HitFeedBack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8818714482339129072, guid: 52c92aea1934f2e4d96c49327694f3d8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
