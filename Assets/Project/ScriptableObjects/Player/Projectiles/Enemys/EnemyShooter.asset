@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: EnemyShooter
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 3126214967491309161, guid: eda92ecb30dc2c34ab90d12c85c3ffc3, type: 3}
-  fireRate: 0.5
+  fireRate: 0.1
   damage: 1

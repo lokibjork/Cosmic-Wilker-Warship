@@ -26,9 +26,6 @@ public abstract class ProjectileBase : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Ignora o próprio Player para não se matar
-        if (other.CompareTag("Player")) return;
-
         // Chama a função que os filhos vão decidir o que faz
         OnHit(other);
 
