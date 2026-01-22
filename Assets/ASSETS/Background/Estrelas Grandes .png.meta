@@ -1,0 +1,1443 @@
+fileFormatVersion: 2
+guid: 2e316bf30f356c647a60e9df435c75ef
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4060593242346210460
+    second: Estrelas Grandes _0
+  - first:
+      213: 6140446430478126482
+    second: Estrelas Grandes _1
+  - first:
+      213: -8021829679872538736
+    second: Estrelas Grandes _2
+  - first:
+      213: -4389578729673650914
+    second: Estrelas Grandes _3
+  - first:
+      213: 1653938894078395817
+    second: Estrelas Grandes _4
+  - first:
+      213: -822063398236089862
+    second: Estrelas Grandes _5
+  - first:
+      213: -1492836839693389314
+    second: Estrelas Grandes _6
+  - first:
+      213: 3134255437175306655
+    second: Estrelas Grandes _7
+  - first:
+      213: -7081015723650575694
+    second: Estrelas Grandes _8
+  - first:
+      213: 1496359659550039420
+    second: Estrelas Grandes _9
+  - first:
+      213: 7621032487630837180
+    second: Estrelas Grandes _10
+  - first:
+      213: 6146325124487538932
+    second: Estrelas Grandes _11
+  - first:
+      213: -8702039552954410451
+    second: Estrelas Grandes _12
+  - first:
+      213: -7142152012509135186
+    second: Estrelas Grandes _13
+  - first:
+      213: -1760424449609203506
+    second: Estrelas Grandes _14
+  - first:
+      213: 5155232229126701991
+    second: Estrelas Grandes _15
+  - first:
+      213: -7118234232963540374
+    second: Estrelas Grandes _16
+  - first:
+      213: 6328712979227598157
+    second: Estrelas Grandes _17
+  - first:
+      213: -913065904061718722
+    second: Estrelas Grandes _18
+  - first:
+      213: -2388721309414393371
+    second: Estrelas Grandes _19
+  - first:
+      213: 505299773203349136
+    second: Estrelas Grandes _20
+  - first:
+      213: 2763447231569744118
+    second: Estrelas Grandes _21
+  - first:
+      213: 9056142592973971571
+    second: Estrelas Grandes _22
+  - first:
+      213: -5487393692144221371
+    second: Estrelas Grandes _23
+  - first:
+      213: 3335394994948900987
+    second: Estrelas Grandes _24
+  - first:
+      213: -1735994737657895343
+    second: Estrelas Grandes _25
+  - first:
+      213: 5270944357479519115
+    second: Estrelas Grandes _26
+  - first:
+      213: -615123409408356244
+    second: Estrelas Grandes _27
+  - first:
+      213: 1327761283231707940
+    second: Estrelas Grandes _28
+  - first:
+      213: -2146244165724617010
+    second: Estrelas Grandes _29
+  - first:
+      213: 4713180522564956095
+    second: Estrelas Grandes _30
+  - first:
+      213: 5221234674770493934
+    second: Estrelas Grandes _31
+  - first:
+      213: -4332312811480535644
+    second: Estrelas Grandes _32
+  - first:
+      213: -7317309928459319897
+    second: Estrelas Grandes _33
+  - first:
+      213: -8346163997815288254
+    second: Estrelas Grandes _34
+  - first:
+      213: 7151329223136005466
+    second: Estrelas Grandes _35
+  - first:
+      213: -1240746808927605957
+    second: Estrelas Grandes _36
+  - first:
+      213: -4818313619577438713
+    second: Estrelas Grandes _37
+  - first:
+      213: -8313103604799407929
+    second: Estrelas Grandes _38
+  - first:
+      213: -2089208169078123074
+    second: Estrelas Grandes _39
+  - first:
+      213: 6316828977516016932
+    second: Estrelas Grandes _40
+  - first:
+      213: -8497834912952341144
+    second: Estrelas Grandes _41
+  - first:
+      213: -864129785195668180
+    second: Estrelas Grandes _42
+  - first:
+      213: -7966793239187493815
+    second: Estrelas Grandes _43
+  - first:
+      213: 7448082668484778487
+    second: Estrelas Grandes _44
+  - first:
+      213: -6608371198891315348
+    second: Estrelas Grandes _45
+  - first:
+      213: -6507445009265197330
+    second: Estrelas Grandes _46
+  - first:
+      213: -4866257097208962570
+    second: Estrelas Grandes _47
+  - first:
+      213: -8561701251094761460
+    second: Estrelas Grandes _48
+  - first:
+      213: -2891144926422825564
+    second: Estrelas Grandes _49
+  - first:
+      213: -4897276440726226307
+    second: Estrelas Grandes _50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Estrelas Grandes _0
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1847
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b3a94c5ffd5a7c0800000000000000
+      internalID: -4060593242346210460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _1
+      rect:
+        serializedVersion: 2
+        x: 2422
+        y: 1824
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dc6fabe7f373550800000000000000
+      internalID: 6140446430478126482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _2
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 1822
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097038a586cbca090800000000000000
+      internalID: -8021829679872538736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _3
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 1781
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d013007651513c0800000000000000
+      internalID: -4389578729673650914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1665
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5ceb549a8f3f610800000000000000
+      internalID: 1653938894078395817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _5
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1715
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1994dd1b17794f0800000000000000
+      internalID: -822063398236089862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _6
+      rect:
+        serializedVersion: 2
+        x: 3349
+        y: 1689
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1757ebdc0684be0800000000000000
+      internalID: -1492836839693389314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _7
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1516
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99bb20d6bc1f7b20800000000000000
+      internalID: 3134255437175306655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _8
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 1562
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b21ad657bd2bbd90800000000000000
+      internalID: -7081015723650575694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _9
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1551
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d54bbae2324c410800000000000000
+      internalID: 1496359659550039420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _10
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 1493
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb592f66ba853c960800000000000000
+      internalID: 7621032487630837180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _11
+      rect:
+        serializedVersion: 2
+        x: 3636
+        y: 1469
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f86327d2222c4550800000000000000
+      internalID: 6146325124487538932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _12
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 1401
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2ad0c8c1252c3780800000000000000
+      internalID: -8702039552954410451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _13
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 1401
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae3d8ad59af1ec90800000000000000
+      internalID: -7142152012509135186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _14
+      rect:
+        serializedVersion: 2
+        x: 2944
+        y: 1407
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0812b4a47b197e0800000000000000
+      internalID: -1760424449609203506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _15
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1316
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a30eb716601b8740800000000000000
+      internalID: 5155232229126701991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _16
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 1209
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ade2cdda3f63d90800000000000000
+      internalID: -7118234232963540374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _17
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 1252
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4dd3447cea14d750800000000000000
+      internalID: 6328712979227598157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _18
+      rect:
+        serializedVersion: 2
+        x: 3131
+        y: 1244
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f51ebd5632453f0800000000000000
+      internalID: -913065904061718722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _19
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 1174
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9f2f400ae89ded0800000000000000
+      internalID: -2388721309414393371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _20
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1070
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09efede677f230700800000000000000
+      internalID: 505299773203349136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _21
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 1100
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f05041ad9cb95620800000000000000
+      internalID: 2763447231569744118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _22
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 1085
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370af71f4b1edad70800000000000000
+      internalID: 9056142592973971571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _23
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 921
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543460da28cd8d3b0800000000000000
+      internalID: -5487393692144221371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _24
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 945
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b788b838314b94e20800000000000000
+      internalID: 3335394994948900987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _25
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 931
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15624f9dbf188e7e0800000000000000
+      internalID: -1735994737657895343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _26
+      rect:
+        serializedVersion: 2
+        x: 3294
+        y: 936
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b839a6a67f7262940800000000000000
+      internalID: 5270944357479519115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _27
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 843
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c601039a484a677f0800000000000000
+      internalID: -615123409408356244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _28
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 837
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423fa813ad72d6210800000000000000
+      internalID: 1327761283231707940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _29
+      rect:
+        serializedVersion: 2
+        x: 1798
+        y: 786
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec6cab47d420732e0800000000000000
+      internalID: -2146244165724617010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _30
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 786
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbf26c9b6b4986140800000000000000
+      internalID: 4713180522564956095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _31
+      rect:
+        serializedVersion: 2
+        x: 2539
+        y: 836
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1c5aef54d857840800000000000000
+      internalID: 5221234674770493934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _32
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 605
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad24d7937880e3c0800000000000000
+      internalID: -4332312811480535644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _33
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 614
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a54eba8361b37a90800000000000000
+      internalID: -7317309928459319897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _34
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 637
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ec01950187c2c80800000000000000
+      internalID: -8346163997815288254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _35
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 629
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d44e00a00ae3360800000000000000
+      internalID: 7151329223136005466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _36
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 559
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3babadd95bf7cee0800000000000000
+      internalID: -1240746808927605957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _37
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 470
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ef8a0aa49e12db0800000000000000
+      internalID: -4818313619577438713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _38
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 493
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c879eee05ce1ac80800000000000000
+      internalID: -8313103604799407929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _39
+      rect:
+        serializedVersion: 2
+        x: 2445
+        y: 455
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb511444d34a103e0800000000000000
+      internalID: -2089208169078123074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _40
+      rect:
+        serializedVersion: 2
+        x: 2930
+        y: 455
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4257cbfac72e9a750800000000000000
+      internalID: 6316828977516016932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _41
+      rect:
+        serializedVersion: 2
+        x: 3577
+        y: 454
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d209d8b20a11a80800000000000000
+      internalID: -8497834912952341144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _42
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 321
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2dd399e98ef104f0800000000000000
+      internalID: -864129785195668180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _43
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 330
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94cee3342c3407190800000000000000
+      internalID: -7966793239187493815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _44
+      rect:
+        serializedVersion: 2
+        x: 2620
+        y: 306
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f957c0b9b7ec5760800000000000000
+      internalID: 7448082668484778487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _45
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 243
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f292248695a44a0800000000000000
+      internalID: -6608371198891315348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _46
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 228
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeefb53fd39e0b5a0800000000000000
+      internalID: -6507445009265197330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _47
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 68
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1e22fd3f4977cb0800000000000000
+      internalID: -4866257097208962570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _48
+      rect:
+        serializedVersion: 2
+        x: 2173
+        y: 116
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00ba7fe21abe2980800000000000000
+      internalID: -8561701251094761460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _49
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 14
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a50562e10790e7d0800000000000000
+      internalID: -2891144926422825564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Estrelas Grandes _50
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 0
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7abf972601690cb0800000000000000
+      internalID: -4897276440726226307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Estrelas Grandes _0: -4060593242346210460
+      Estrelas Grandes _1: 6140446430478126482
+      Estrelas Grandes _10: 7621032487630837180
+      Estrelas Grandes _11: 6146325124487538932
+      Estrelas Grandes _12: -8702039552954410451
+      Estrelas Grandes _13: -7142152012509135186
+      Estrelas Grandes _14: -1760424449609203506
+      Estrelas Grandes _15: 5155232229126701991
+      Estrelas Grandes _16: -7118234232963540374
+      Estrelas Grandes _17: 6328712979227598157
+      Estrelas Grandes _18: -913065904061718722
+      Estrelas Grandes _19: -2388721309414393371
+      Estrelas Grandes _2: -8021829679872538736
+      Estrelas Grandes _20: 505299773203349136
+      Estrelas Grandes _21: 2763447231569744118
+      Estrelas Grandes _22: 9056142592973971571
+      Estrelas Grandes _23: -5487393692144221371
+      Estrelas Grandes _24: 3335394994948900987
+      Estrelas Grandes _25: -1735994737657895343
+      Estrelas Grandes _26: 5270944357479519115
+      Estrelas Grandes _27: -615123409408356244
+      Estrelas Grandes _28: 1327761283231707940
+      Estrelas Grandes _29: -2146244165724617010
+      Estrelas Grandes _3: -4389578729673650914
+      Estrelas Grandes _30: 4713180522564956095
+      Estrelas Grandes _31: 5221234674770493934
+      Estrelas Grandes _32: -4332312811480535644
+      Estrelas Grandes _33: -7317309928459319897
+      Estrelas Grandes _34: -8346163997815288254
+      Estrelas Grandes _35: 7151329223136005466
+      Estrelas Grandes _36: -1240746808927605957
+      Estrelas Grandes _37: -4818313619577438713
+      Estrelas Grandes _38: -8313103604799407929
+      Estrelas Grandes _39: -2089208169078123074
+      Estrelas Grandes _4: 1653938894078395817
+      Estrelas Grandes _40: 6316828977516016932
+      Estrelas Grandes _41: -8497834912952341144
+      Estrelas Grandes _42: -864129785195668180
+      Estrelas Grandes _43: -7966793239187493815
+      Estrelas Grandes _44: 7448082668484778487
+      Estrelas Grandes _45: -6608371198891315348
+      Estrelas Grandes _46: -6507445009265197330
+      Estrelas Grandes _47: -4866257097208962570
+      Estrelas Grandes _48: -8561701251094761460
+      Estrelas Grandes _49: -2891144926422825564
+      Estrelas Grandes _5: -822063398236089862
+      Estrelas Grandes _50: -4897276440726226307
+      Estrelas Grandes _6: -1492836839693389314
+      Estrelas Grandes _7: 3134255437175306655
+      Estrelas Grandes _8: -7081015723650575694
+      Estrelas Grandes _9: 1496359659550039420
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
