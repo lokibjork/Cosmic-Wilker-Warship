@@ -11,9 +11,7 @@ public class PlayerStatsSO : ScriptableObject
     public float moveSpeed = 10f;
 
     [Header("Dash (Level 1)")]
-    public float dashDistance = 3f;
-    public float dashCooldown = 1f;
-    public float dashDuration = 0.2f;
-
-    // Aqui podemos adicionar mais configurações no futuro sem quebrar o código
+    public float dashSpeed = 25f;    // Velocidade durante o dash
+    public float dashDuration = 0.2f; // Quanto tempo dura o empurrão
+    public float dashCooldown = 1f;   // Tempo de espera até poder usar de novo
 }

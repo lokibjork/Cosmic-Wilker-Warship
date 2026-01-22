@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WilkerDefaultStats
   m_EditorClassIdentifier: 
   maxHealth: 3
-  moveSpeed: 10
-  dashDistance: 3
+  moveSpeed: 4.3
+  dashSpeed: 20
+  dashDuration: 1
   dashCooldown: 1
-  dashDuration: 0.2

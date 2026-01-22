@@ -1,3 +1,4 @@
+using MoreMountains.Feedbacks;
 using UnityEngine;
 using UnityEngine.Events; // Necessário para criar eventos personalizados
 
@@ -6,6 +7,7 @@ public class HealthSystem : MonoBehaviour
     [Header("Configurações")]
     [SerializeField] private int maxHealth = 3;
     [SerializeField] private bool isInvulnerable = false;
+    [SerializeField] MMF_Player HitFeedBack;
 
     // Variável para controle interno
     private int currentHealth;
@@ -30,6 +32,8 @@ public class HealthSystem : MonoBehaviour
         currentHealth -= damageAmount;
         Debug.Log($"{gameObject.name} tomou {damageAmount} de dano. Vida restante: {currentHealth}");
 
+        HitFeedBack.PlayFeedbacks();
+
         // Avisa quem estiver ouvindo que tomou dano
         OnTakeDamage?.Invoke();
 
@@ -49,5 +53,11 @@ public class HealthSystem : MonoBehaviour
     public void Die()
     {
         OnDeath?.Invoke();
+    }
+
+    public void SetInvulnerability(bool status)
+    {
+        isInvulnerable = status;
+        Debug.Log($"Invulnerabilidade: {status}");
     }
 }
