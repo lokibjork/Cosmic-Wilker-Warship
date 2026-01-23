@@ -17,3 +17,6 @@ MonoBehaviour:
   dashSpeed: 20
   dashDuration: 0.2
   dashCooldown: 0.5
+  parryDuration: 0.2
+  parryCooldown: 1.5
+  parryRadius: 1.3

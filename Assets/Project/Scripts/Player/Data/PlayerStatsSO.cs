@@ -14,4 +14,9 @@ public class PlayerStatsSO : ScriptableObject
     public float dashSpeed = 25f;    // Velocidade durante o dash
     public float dashDuration = 0.2f; // Quanto tempo dura o empurrão
     public float dashCooldown = 1f;   // Tempo de espera até poder usar de novo
+
+    [Header("Parry (Level 2)")]
+    public float parryDuration = 0.2f;  // Janela de tempo para acertar o parry (muito curta!)
+    public float parryCooldown = 1.5f;  // Tempo punitivo se errar
+    public float parryRadius = 2f;      // Tamanho da área de proteção
 }
