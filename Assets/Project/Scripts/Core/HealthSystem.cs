@@ -9,6 +9,10 @@ public class HealthSystem : MonoBehaviour
     [SerializeField] private bool isInvulnerable = false;
     [SerializeField] MMF_Player HitFeedBack;
 
+    [Header("Loot")]
+    [SerializeField] private GameObject dropItemPrefab; // Arrasta o Prefab da Gema aqui
+    [Range(0f, 1f)][SerializeField] private float dropChance = 1f; // 1 = 100%
+
     // Variável para controle interno
     private int currentHealth;
 
@@ -22,6 +26,14 @@ public class HealthSystem : MonoBehaviour
     private void Start()
     {
         currentHealth = maxHealth;
+    }
+
+    private void HandleDrop()
+    {
+        if (dropItemPrefab != null && Random.value <= dropChance)
+        {
+            Instantiate(dropItemPrefab, transform.position, Quaternion.identity);
+        }
     }
 
     // Função pública para receber dano de qualquer fonte (tiro, colisão, laser)
@@ -52,7 +64,9 @@ public class HealthSystem : MonoBehaviour
 
     public void Die()
     {
-        gameObject.SetActive(false);
+        HandleDrop(); // <-- Adiciona isto
+        OnDeath?.Invoke();
+        Destroy(gameObject);
     }
 
     public void SetInvulnerability(bool status)
