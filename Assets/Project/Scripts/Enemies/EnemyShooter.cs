@@ -25,21 +25,25 @@ public class EnemyShooter : MonoBehaviour
 
     private void Update()
     {
-        // Se o player morreu ou não existe, não faz nada
         if (playerTarget == null) return;
 
-        // Verifica a distância
         float distanceToPlayer = Vector2.Distance(transform.position, playerTarget.position);
 
         if (distanceToPlayer <= attackRange)
         {
-            // 1. Mirar (Opcional)
+            // --- CORREÇÃO AQUI ---
             if (lookAtPlayer)
             {
                 AimAtPlayer();
             }
+            else
+            {
+                // Se não está a mirar no player, força a mira para a ESQUERDA (180 graus)
+                // Podes mudar para 0f se quiseres que atire para a direita
+                firePoint.rotation = Quaternion.Euler(0, 0, 180f);
+            }
+            // ---------------------
 
-            // 2. Atirar
             if (Time.time >= nextFireTime)
             {
                 Shoot();

@@ -177,7 +177,7 @@ MonoBehaviour:
   weaponData: {fileID: 11400000, guid: 57590328aeb42aa4992e4287f75a41ec, type: 2}
   firePoint: {fileID: 6326046964908775118}
   attackRange: 12
-  lookAtPlayer: 1
+  lookAtPlayer: 0
 --- !u!114 &4530857647305824899
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb95ec8f79b98ed4eb951a6b3672d3bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 57590328aeb42aa4992e4287f75a41ec, type: 2}
+  weaponData: {fileID: 11400000, guid: c949bc25c5ab98646a95aeb7e95e7893, type: 2}
   firePoint: {fileID: 6326046964908775118}
   attackRange: 12
   lookAtPlayer: 1

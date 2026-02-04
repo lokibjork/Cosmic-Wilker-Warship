@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveType: 2
-  speed: 2
+  speed: 10
   frequency: 1
   magnitude: 2
   rotateSpeed: 200
