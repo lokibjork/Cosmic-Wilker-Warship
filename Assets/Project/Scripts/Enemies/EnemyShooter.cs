@@ -63,8 +63,21 @@ public class EnemyShooter : MonoBehaviour
 
         nextFireTime = Time.time + weaponData.fireRate;
 
-        // Instancia a bala na posição e ROTAÇÃO do firepoint (que já está mirando no player)
-        Instantiate(weaponData.projectilePrefab, firePoint.position, firePoint.rotation);
+        // Se for 1 bala, o ângulo é 0. Se forem mais, calculamos o passo.
+        float startAngle = -weaponData.spreadAngle / 2f;
+        float angleStep = weaponData.projectilesPerShot > 1
+            ? weaponData.spreadAngle / (weaponData.projectilesPerShot - 1)
+            : 0;
+
+        // Loop para criar cada bala do leque
+        for (int i = 0; i < weaponData.projectilesPerShot; i++)
+        {
+            // Calcula a rotação desta bala específica
+            float currentAngle = startAngle + (angleStep * i);
+            Quaternion rotation = firePoint.rotation * Quaternion.Euler(0, 0, currentAngle);
+
+            Instantiate(weaponData.projectilePrefab, firePoint.position, rotation);
+        }
     }
 
     // Desenha o alcance no editor para facilitar

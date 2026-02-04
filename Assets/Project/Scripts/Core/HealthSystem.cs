@@ -52,7 +52,7 @@ public class HealthSystem : MonoBehaviour
 
     public void Die()
     {
-        OnDeath?.Invoke();
+        gameObject.SetActive(false);
     }
 
     public void SetInvulnerability(bool status)
