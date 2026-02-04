@@ -15,5 +15,5 @@ MonoBehaviour:
   maxHealth: 3
   moveSpeed: 4.3
   dashSpeed: 20
-  dashDuration: 0.2
-  dashCooldown: 0.5
+  dashDuration: 1
+  dashCooldown: 1

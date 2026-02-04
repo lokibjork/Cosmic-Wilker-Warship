@@ -35,15 +35,8 @@ public class PlayerDash : MonoBehaviour
     // Input do Botão de Dash (LB / Shift)
     public void OnDash(InputValue value)
     {
-        // Verifica se apertou, se pode dar dash e se já não está dando dash
         if (value.isPressed && canDash && !isDashing)
         {
-            // CORREÇÃO: Se o input de movimento for Zero (parado), cancela tudo e sai da função.
-            if (rawInput == Vector2.zero)
-            {
-                return;
-            }
-
             StartCoroutine(PerformDash());
         }
     }
