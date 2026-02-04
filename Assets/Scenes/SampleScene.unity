@@ -2442,6 +2442,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelWaves:
+  - note: Kamikaze
+    enemyPrefab: {fileID: 3101119051933328053, guid: abb6f1002c8758147a1572dd94406115, type: 3}
+    count: 10
+    timeBetweenSpawns: 2
+    spawnPoint: {fileID: 1012507702}
+    delayBeforeNextWave: 0
   - note: Normal Wave
     enemyPrefab: {fileID: 3101119051933328053, guid: 11a3ecf45cae8214789cb66f4f58a2b4, type: 3}
     count: 20
@@ -2450,8 +2456,8 @@ MonoBehaviour:
     delayBeforeNextWave: 0
   - note: Sniper Wave
     enemyPrefab: {fileID: 3101119051933328053, guid: 7a941bb5009e8564882bdb21ba55a0e1, type: 3}
-    count: 20
-    timeBetweenSpawns: 5
+    count: 5
+    timeBetweenSpawns: 1
     spawnPoint: {fileID: 1012507702}
     delayBeforeNextWave: 0
 --- !u!4 &1659349596

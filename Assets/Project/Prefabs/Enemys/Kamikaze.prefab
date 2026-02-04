@@ -12,11 +12,10 @@ GameObject:
   - component: {fileID: 3109784347319634105}
   - component: {fileID: 7947759145597270130}
   - component: {fileID: 1373184542202368392}
-  - component: {fileID: 6855487749806987831}
   - component: {fileID: 4530857647305824899}
   - component: {fileID: -5293216393066508076}
   m_Layer: 0
-  m_Name: EnemyNormal
+  m_Name: Kamikaze
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -162,22 +161,6 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &6855487749806987831
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3101119051933328053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb95ec8f79b98ed4eb951a6b3672d3bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weaponData: {fileID: 11400000, guid: 57590328aeb42aa4992e4287f75a41ec, type: 2}
-  firePoint: {fileID: 6326046964908775118}
-  attackRange: 12
-  lookAtPlayer: 1
 --- !u!114 &4530857647305824899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -190,9 +173,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d8dddf7e077a947b47fa2c4ebaa26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveType: 0
-  speed: 4
-  frequency: 2
+  moveType: 2
+  speed: 2
+  frequency: 1
   magnitude: 2
   rotateSpeed: 200
 --- !u!50 &-5293216393066508076

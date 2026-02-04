@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4530857647305824899}
   - component: {fileID: -5293216393066508076}
   m_Layer: 0
-  m_Name: EnemySniper
+  m_Name: Default
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -190,9 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91d8dddf7e077a947b47fa2c4ebaa26d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveType: 1
-  speed: 2
-  frequency: 1
+  moveType: 0
+  speed: 4
+  frequency: 2
   magnitude: 2
   rotateSpeed: 200
 --- !u!50 &-5293216393066508076
