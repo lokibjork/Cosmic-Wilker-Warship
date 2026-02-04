@@ -155,6 +155,8 @@ MonoBehaviour:
   maxHealth: 5
   isInvulnerable: 0
   HitFeedBack: {fileID: 4130610867168611921}
+  dropItemPrefab: {fileID: 6933820105941418457, guid: 5cd8120b6b962c04bbef77c5b6a27e76, type: 3}
+  dropChance: 1
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls: []
