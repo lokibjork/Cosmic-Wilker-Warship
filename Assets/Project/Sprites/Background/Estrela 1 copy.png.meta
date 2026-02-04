@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 68ac33072e8954e439a5c1ec7ff88371
+guid: d83299c096c5dc04d8cfee940345adf5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8478156019316607684
-    second: ASteroid 1 _0
+      213: -8995580431041655228
+    second: Estrela 1 copy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ASteroid 1 _0
+      name: Estrela 1 copy_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 583
-        height: 642
+        width: 74
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4cac4b9faf578a570800000000000000
-      internalID: 8478156019316607684
+      spriteID: 44e8e433247492380800000000000000
+      internalID: -8995580431041655228
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      ASteroid 1 _0: 8478156019316607684
+      Estrela 1 copy_0: -8995580431041655228
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
