@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using MoreMountains.Feedbacks; // Já que estamos usando o Feel!
+using MoreMountains.Feedbacks;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerDash : MonoBehaviour
@@ -10,8 +10,13 @@ public class PlayerDash : MonoBehaviour
     [SerializeField] private PlayerStatsSO stats;
     [SerializeField] private HealthSystem healthSystem;
 
+    // --- NOVO: Campo para arrastar o Animator ---
+    [Header("Animação")]
+    [SerializeField] private Animator animator;
+    // ------------------------------------------
+
     [Header("Feedback")]
-    [SerializeField] private MMF_Player dashFeedback; // Arrasta o Feel aqui para som/partículas
+    [SerializeField] private MMF_Player dashFeedback;
 
     private Rigidbody2D rb;
     private Vector2 rawInput;
@@ -22,23 +27,22 @@ public class PlayerDash : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
 
-        // Se esqueceu de arrastar o HealthSystem, tenta pegar automaticamente
         if (healthSystem == null) healthSystem = GetComponent<HealthSystem>();
+
+        // --- NOVO: Tenta achar o Animator sozinho se você esquecer de arrastar ---
+        if (animator == null) animator = GetComponentInChildren<Animator>();
     }
 
-    // Lê a direção do analógico/teclado para saber para onde dar o Dash
     public void OnMove(InputValue value)
     {
         rawInput = value.Get<Vector2>();
     }
 
-    // Input do Botão de Dash (LB / Shift)
     public void OnDash(InputValue value)
     {
-        // Verifica se apertou, se pode dar dash e se já não está dando dash
         if (value.isPressed && canDash && !isDashing)
         {
-            // CORREÇÃO: Se o input de movimento for Zero (parado), cancela tudo e sai da função.
+            // Se o input de movimento for Zero, cancela.
             if (rawInput == Vector2.zero)
             {
                 return;
@@ -54,6 +58,13 @@ public class PlayerDash : MonoBehaviour
         canDash = false;
         isDashing = true;
 
+        // --- NOVO: Dispara a animação ---
+        if (animator != null)
+        {
+            animator.SetTrigger("Dash");
+        }
+        // --------------------------------
+
         // Liga invulnerabilidade
         if (healthSystem) healthSystem.SetInvulnerability(true);
 
@@ -61,18 +72,15 @@ public class PlayerDash : MonoBehaviour
         if (dashFeedback) dashFeedback.PlayFeedbacks();
 
         // 2. Aplica a Força
-        // Se o jogador não estiver apertando nada, dá dash para frente (Direita)
         Vector2 dashDirection = rawInput == Vector2.zero ? Vector2.right : rawInput.normalized;
 
-        // Armazena a velocidade antiga para restaurar depois (opcional, mas fica mais fluido)
-        // ou força a velocidade do dash:
         rb.linearVelocity = dashDirection * stats.dashSpeed;
 
-        // 3. Espera o tempo do Dash (Intangível e Rápido)
+        // 3. Espera o tempo do Dash
         yield return new WaitForSeconds(stats.dashDuration);
 
         // 4. Fim do Dash
-        rb.linearVelocity = Vector2.zero; // Para a nave (opcional: ou volta à velocidade normal)
+        rb.linearVelocity = Vector2.zero;
         isDashing = false;
 
         // Desliga invulnerabilidade
@@ -83,7 +91,5 @@ public class PlayerDash : MonoBehaviour
         canDash = true;
     }
 
-    // Pequena função para outros scripts saberem se estamos em dash
-    // Útil para o futuro "Dash Cortante"
     public bool IsDashing() => isDashing;
 }
