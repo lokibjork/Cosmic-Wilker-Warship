@@ -4,21 +4,23 @@ using UnityEngine.InputSystem;
 public class PlayerWeapon : MonoBehaviour
 {
     [Header("Dependências")]
-    [SerializeField] private WeaponDataSO currentWeapon; // Arrasta o BasicWeapon aqui
-    [SerializeField] private Transform firePoint; // Local de onde sai o tiro (boca da arma)
+    [SerializeField] private WeaponDataSO currentWeapon;
+    [SerializeField] private Transform firePoint;
 
     private bool isFiring;
     private float nextFireTime;
 
-    // Input System: Chamado quando apertas ou soltas o botão de ataque
+    // Multiplicador para buffs de velocidade de ataque (começa em 100%)
+    private float fireRateMultiplier = 1f;
+
     public void OnFire(InputValue value)
     {
-        isFiring = value.isPressed;
+        float buttonValue = value.Get<float>();
+        isFiring = buttonValue > 0.5f;
     }
 
     private void Update()
     {
-        // Se o botão está apertado E o tempo atual é maior que o tempo do próximo tiro
         if (isFiring && Time.time >= nextFireTime)
         {
             Shoot();
@@ -27,19 +29,29 @@ public class PlayerWeapon : MonoBehaviour
 
     private void Shoot()
     {
-        if (currentWeapon == null || currentWeapon.projectilePrefab == null)
-        {
-            Debug.LogWarning("Arma ou Prefab do projétil não configurados!");
-            return;
-        }
+        if (currentWeapon == null || currentWeapon.projectilePrefab == null) return;
 
-        // Atualiza o tempo para o próximo tiro
-        nextFireTime = Time.time + currentWeapon.fireRate;
+        // Calcula o tempo do próximo tiro considerando o multiplicador
+        // Se o multiplicador for 2, o tempo entre tiros cai pela metade (atira 2x mais rápido)
+        float adjustedFireRate = currentWeapon.fireRate / fireRateMultiplier;
+        nextFireTime = Time.time + adjustedFireRate;
 
-        // Cria a bala na posição do firePoint e com a rotação do firePoint
+        // Lógica de tiro (suporta armas com Spread/Shotgun se o SO tiver suporte, senão usa padrão)
         Instantiate(currentWeapon.projectilePrefab, firePoint.position, firePoint.rotation);
+    }
 
-        // Dica Pro: Futuramente, para performance comercial, usaremos "Object Pooling" aqui
-        // em vez de Instantiate/Destroy repetidamente.
+    // --- MÉTODOS NOVOS PARA UPGRADES ---
+
+    public void EquipWeapon(WeaponDataSO newWeapon)
+    {
+        currentWeapon = newWeapon;
+        Debug.Log($"[Upgrade] Nova Arma Equipada: {newWeapon.name}");
+    }
+
+    public void ModifyFireRate(float percentageToAdd)
+    {
+        // Ex: Se passar 0.2f, aumenta a velocidade de ataque em 20%
+        fireRateMultiplier += percentageToAdd;
+        Debug.Log($"[Upgrade] Novo Multiplicador de Tiro: {fireRateMultiplier}");
     }
 }

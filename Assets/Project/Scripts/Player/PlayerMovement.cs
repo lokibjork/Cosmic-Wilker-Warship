@@ -1,27 +1,33 @@
 ﻿using UnityEngine;
 using UnityEngine.InputSystem;
-
-[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Dependências")]
     [SerializeField] private PlayerStatsSO stats;
 
-    // 1. Adicionamos a referência ao Dash (opcional, pois podemos usar GetComponent)
     private PlayerDash playerDash;
-
     private Rigidbody2D rb;
     private Vector2 moveInput;
+
+    // Variável interna para podermos modificar a velocidade sem estragar o arquivo original
+    private float currentSpeed;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-
-        // 2. Tentamos encontrar o componente Dash no mesmo objeto automaticamente
         playerDash = GetComponent<PlayerDash>();
 
         rb.gravityScale = 0;
         rb.freezeRotation = true;
+    }
+
+    private void Start()
+    {
+        // Inicializa a velocidade atual com o valor base do arquivo
+        if (stats != null)
+        {
+            currentSpeed = stats.moveSpeed;
+        }
     }
 
     public void OnMove(InputValue value)
@@ -31,9 +37,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // 3. A GUARDA DE SEGURANÇA:
-        // Se o componente de Dash existir E estivermos no meio de um dash...
-        // ...NÃO fazemos nada e deixamos o script de Dash controlar a física.
+        // Se estiver dando Dash, o script de Dash controla a física
         if (playerDash != null && playerDash.IsDashing())
         {
             return;
@@ -44,7 +48,15 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
-        Vector2 targetVelocity = moveInput * stats.moveSpeed;
+        // Usa a currentSpeed (que pode ter sido alterada por upgrades)
+        Vector2 targetVelocity = moveInput * currentSpeed;
         rb.linearVelocity = targetVelocity;
+    }
+
+    // --- MÉTODO NOVO PARA UPGRADES ---
+    public void ModifySpeed(float amountToAdd)
+    {
+        currentSpeed += amountToAdd;
+        Debug.Log($"[Upgrade] Nova Velocidade: {currentSpeed}");
     }
 }

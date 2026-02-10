@@ -2672,6 +2672,8 @@ MonoBehaviour:
   maxHealth: 55555
   isInvulnerable: 0
   HitFeedBack: {fileID: 238434026}
+  dropItemPrefab: {fileID: 0}
+  dropChance: 1
   OnTakeDamage:
     m_PersistentCalls:
       m_Calls: []
@@ -2716,7 +2718,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3, y: 2.85}
+    oldSize: {x: 1, y: 0.95}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2738,6 +2740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stats: {fileID: 11400000, guid: 66ad2cea3e1887a49a81278616b4f3bc, type: 2}
   healthSystem: {fileID: 1434022944}
+  animator: {fileID: 0}
   dashFeedback: {fileID: 1739091771}
 --- !u!114 &1434022947
 MonoBehaviour:
@@ -3042,7 +3045,7 @@ MonoBehaviour:
         DebugActive: 0
         SquashAndStretchTarget: {fileID: 1434022939}
         Mode: 0
-        Axis: 3
+        Axis: 1
         AnimateScaleDuration: 0.2
         RemapCurveZero: 1
         RemapCurveOne: 2
