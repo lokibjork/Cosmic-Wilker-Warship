@@ -34,7 +34,7 @@ public class CasinoHUD : MonoBehaviour
     private CasinoState currentState = CasinoState.Hidden;
     private UpgradeBaseSO draftedCard;
     private float hiddenYPosition = 1200f; // Posição Y fora da tela (em cima)
-    private float centerYPosition = 0f;    // Posição Y no centro
+    private float centerYPosition = -50f;    // Posição Y no centro
 
     private void Start()
     {
